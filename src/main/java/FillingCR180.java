@@ -13,7 +13,7 @@ public class FillingCR180 extends FillingBasic {
 
     public FillingCR180() {
 
-        FILENAME = "cr180.pdf";
+        FILENAME = "cr180";
 
 
     }
