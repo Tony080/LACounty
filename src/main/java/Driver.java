@@ -16,13 +16,11 @@ public class Driver {
         }
 
         for (DefendantInfo defender : InfoList) {
+            FillerFW001 fw001 = new FillerFW001();
+            fw001.fillForm(defender);
 
-            FillingCR180 cr180 = new FillingCR180();
-            cr180.fillForm(defender);
-
-            FillingCR181 cr181 = new FillingCR181();
-            cr181.fillForm(defender);
-
+            FillerFW003 fw003 = new FillerFW003();
+            fw003.fillForm(defender);
         }
     }
 }
