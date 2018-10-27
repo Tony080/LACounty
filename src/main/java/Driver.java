@@ -1,28 +1,28 @@
+import java.util.List;
+import java.util.Iterator;
 /**
  * @author: Vivian Xu
  */
 public class Driver {
     public static void main(String[] args) {
-        DefendantInfo defender = new DefendantInfo();
+        CsvReader csvReader = new CsvReader();
+        String path = "Dummy Client Data.csv";
+        List<DefendantInfo> InfoList = csvReader.processInputFile(path);
 
-        defender.setAddress("Cherry Ln");
-        defender.setCity("Fremont");
-        defender.setEmail("xxx@gmail.com");
-        defender.setCaseNumber("123445");
-        defender.setFirstName("Vivi");
-        defender.setLastName("Xu");
-        defender.setState("CA");
-        defender.setZip("93452");
-        defender.setTelephone("9343522343");
+        Iterator<DefendantInfo> iterator = InfoList.iterator();
 
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().toString());
+        }
 
-        FillingCR180 cr180 = new FillingCR180();
-        cr180.fillForm(defender);
+        for (DefendantInfo defender : InfoList) {
 
-        FillingCR181 cr181 = new FillingCR181();
-        cr181.fillForm(defender);
+            FillingCR180 cr180 = new FillingCR180();
+            cr180.fillForm(defender);
 
+            FillingCR181 cr181 = new FillingCR181();
+            cr181.fillForm(defender);
 
-
+        }
     }
 }

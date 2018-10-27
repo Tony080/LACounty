@@ -90,7 +90,8 @@ public class FillingBasic implements AbstractPdfFiller {
                 } else {
                     System.out.println("No such field : "+ zip);
                 }
-                pdf.save("Result_" + FILENAME);
+                pdf.save("Result_" + individualInfo.getCaseNumber() + FILENAME);
+                pdf.close();
 
             } catch (IOException e) {
                 System.out.println(e.getMessage());
