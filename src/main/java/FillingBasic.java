@@ -17,7 +17,7 @@ public class FillingBasic implements AbstractPdfFiller {
         public void fillForm(DefendantInfo individualInfo) {
             // filling pdf
             try {
-            PDDocument pdf = PDDocument.load(new File(FILENAME));
+            PDDocument pdf = PDDocument.load(new File(FILENAME + ".pdf"));
                 pdf.setAllSecurityToBeRemoved(true);
                 PDDocumentCatalog documentCatalog = pdf.getDocumentCatalog();
                 PDAcroForm acroForm = documentCatalog.getAcroForm();
@@ -90,7 +90,7 @@ public class FillingBasic implements AbstractPdfFiller {
                 } else {
                     System.out.println("No such field : "+ zip);
                 }
-                pdf.save(FILENAME + "_" + individualInfo.getLastName() + "_" + individualInfo.getCaseNumber());
+                pdf.save(FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
                 pdf.close();
 
             } catch (IOException e) {
