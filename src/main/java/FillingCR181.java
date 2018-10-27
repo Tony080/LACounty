@@ -6,16 +6,15 @@ import org.apache.pdfbox.pdmodel.interactive.form.PDFieldTree;
 
 import java.io.File;
 import java.io.IOException;
+
 /**
  * @author: Vivian Xu
  */
-public class FillingCR180 extends FillingBasic {
+public class FillingCR181 extends FillingBasic{
 
-    public FillingCR180() {
 
-        FILENAME = "cr180.pdf";
-
+    public FillingCR181() {
+        FILENAME = "cr181.pdf";
 
     }
-
 }
