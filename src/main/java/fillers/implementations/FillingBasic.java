@@ -26,6 +26,9 @@ public class FillingBasic implements AbstractPdfFiller {
                 //Acquire all possible names
                 PDFieldTree tree = acroForm.getFieldTree();
                 //Firm name
+                for (PDField aTree : tree) {
+                    System.out.println(aTree);
+                }
                 PDField firmName = acroForm.getField("topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyFirm_ft[0]");
                 //firmName.setValue(individualInfo.getF());
 
@@ -94,6 +97,29 @@ public class FillingBasic implements AbstractPdfFiller {
                 }
                 pdf.save(FOLDER_NAME + FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
                 pdf.close();
+
+                // Birthday
+                PDField birthday = acroForm.getField("topmostSubform[0].Page1[0].Caption_sf[0].CaseName[0].DefendantDOB_dt[0]");
+                if (birthday != null) {
+                    birthday.setValue(individualInfo.getBirthday());
+                } else {
+                    System.out.println("No such field : "+ birthday);
+                }
+
+                // Defendant
+                PDField defendant = acroForm.getField("topmostSubform[0].Page1[0].Caption_sf[0].CaseName[0].Defendant_ft[0]");
+                if (defendant != null) {
+                    defendant.setValue(individualInfo.getFirstName() + " " + individualInfo.getLastName());
+                } else {
+                    System.out.println("No such field : "+ defendant);
+                }
+
+
+
+                pdf.save(FOLDER_NAME + FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
+                pdf.close();
+
+
 
             } catch (IOException e) {
                 System.out.println(e.getMessage());
