@@ -1,3 +1,7 @@
+package fillers.implementations;
+
+import fillers.AbstractPdfFiller;
+import object.DefendantInfo;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
@@ -6,9 +10,7 @@ import org.apache.pdfbox.pdmodel.interactive.form.PDFieldTree;
 
 import java.io.File;
 import java.io.IOException;
-/**
- * @author: Vivian Xu
- */
+
 public class FillingBasic implements AbstractPdfFiller {
 
     protected String FILENAME;
@@ -90,7 +92,7 @@ public class FillingBasic implements AbstractPdfFiller {
                 } else {
                     System.out.println("No such field : "+ zip);
                 }
-                pdf.save(FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
+                pdf.save(FOLDER_NAME + FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
                 pdf.close();
 
             } catch (IOException e) {

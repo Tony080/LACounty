@@ -1,3 +1,7 @@
+package fillers.implementations;
+
+import fillers.AbstractPdfFiller;
+import object.DefendantInfo;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
@@ -7,7 +11,7 @@ import org.apache.pdfbox.pdmodel.interactive.form.PDFieldTree;
 import java.io.File;
 import java.io.IOException;
 
-public class CR115Filler implements AbstractPdfFiller{
+public class CR115Filler implements AbstractPdfFiller {
     public static final String FILENAME = "cr115.pdf";
     private PDDocument pdf;
     @Override
@@ -15,7 +19,7 @@ public class CR115Filler implements AbstractPdfFiller{
         try {
             PDAcroForm acroForm = openPdf();
             fillInfo(acroForm, individualInfo);
-            pdf.save("cr115 result.pdf");
+            pdf.save(FOLDER_NAME + "cr115 result.pdf");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -62,12 +66,6 @@ public class CR115Filler implements AbstractPdfFiller{
             PDField phone = acroForm.getField("TEXT.1.16");
             phone.setValue(individualInfo.getTelephone());
         }
-        //Fill email
-        if (individualInfo.getEmail() != null) {
-            PDField email = acroForm.getField("topmostSubform[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Email_ft[0]");
-            email.setValue(individualInfo.getEmail());
-        }
-
     }
 
 }

@@ -1,3 +1,5 @@
+package object;
+
 public class DefendantInfo {
   private String firstName;
   private String lastName;
