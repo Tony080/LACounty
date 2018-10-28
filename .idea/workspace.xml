@@ -6,17 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635a3045-c112-42ec-93ea-2031830e9823" name="Default" comment="">
+    <list default="true" id="635a3045-c112-42ec-93ea-2031830e9823" name="Default" comment="Reformatting the code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LACounty.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result_cr180.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result_cr181.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/object/DefendantInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/DefendantInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,24 +29,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="MF" value="3" />
+          <entry key="java" value="19" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="19" />
+          <entry key="Manifest" value="3" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="47" />
-          <entry key="java" value="635" />
+          <entry key="java" value="685" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="635" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="JAVA" value="685" />
+          <entry key="PLAIN_TEXT" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -59,69 +61,93 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CR180Filler.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR180Filler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CR181Filler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR181Filler.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/InfoReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="1320">
+              <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fillers/AbstractPdfFiller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/object/DefendantInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CR115Filler.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="435">
+              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FW001Filler.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR181Filler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FW001Filler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="825">
               <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="67" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FillingBasic.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FillingBasic.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FW003Filler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="667">
+              <caret line="62" selection-start-line="62" selection-start-column="2" selection-end-line="66" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefendantInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/object/DefendantInfo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/Pos040Filler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -148,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/main/java/AbstractPdfFiller.java" />
         <option value="$PROJECT_DIR$/src/main/java/fillers/AbstractPdfFiller.java" />
         <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/Pos040Filler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java" />
         <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/FW001Filler.java" />
         <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/FW003Filler.java" />
         <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/CR180Filler.java" />
@@ -156,7 +181,7 @@
         <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/FillingBasic.java" />
         <option value="$PROJECT_DIR$/src/main/java/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/InfoReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/object/DefendantInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java" />
       </list>
     </option>
   </component>
@@ -172,9 +197,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="132" />
     <option name="y" value="23" />
@@ -187,49 +209,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fillers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -237,8 +271,16 @@
               <item name="implementations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LACounty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LACounty" type="462c0819:PsiDirectoryNode" />
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LACounty2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LACounty2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -248,9 +290,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,11 +300,11 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lacounty2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540688089984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540691805229" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -291,10 +331,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.DS_Store</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/CsvReader.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Driver.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/Driver.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/FillingBasic.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/object/DefendantInfo.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -302,16 +343,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/InfoReader.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/AbstractPdfFiller.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/CR180Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/CR181Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/FW001Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/FW003Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/FillingBasic.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/fillers/implementations/Pos040Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/object/DefendantInfo.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -319,19 +350,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/CR115Filler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/AbstractPdfFiller.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/DefendantInfo.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/FillerFW001.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/FillerFW003.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/FillingBasic.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/FillingCR180.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/FillingCR181.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/AbstractPdfFiller.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/DefendantInfo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/FillingBasic.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/FillingCR180.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/FillingCR181.class</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -429,69 +447,51 @@
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="LACounty2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="InfoReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InfoReader" />
       <module name="LACounty2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LoadingPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LoadingPDF" />
       <module name="LACounty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ParsePDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParsePDF" />
       <module name="LACounty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -523,54 +523,59 @@
       <workItem from="1540665499733" duration="1526000" />
       <workItem from="1540667033742" duration="532000" />
       <workItem from="1540667573231" duration="4421000" />
-      <workItem from="1540685211377" duration="2949000" />
+      <workItem from="1540685211377" duration="6387000" />
     </task>
+    <task id="LOCAL-00001" summary="Reformatting the code">
+      <created>1540688256936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540688256936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14142000" />
+    <option name="totallyTimeSpent" value="17422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="105" width="1351" height="792" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294964" />
-      <window_info anchor="right" id="Graph Database" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980901" />
-      <window_info anchor="bottom" id="Graph Database Console" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26020408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Graph Database Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Google Cloud Storage" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Graph Database" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,52 +584,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reformatting the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatting the code" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/DefendantInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FillingBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FillerFW001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="52" selection-start-line="52" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FillingCR180.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FillingBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FillingCR115.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/LoadingPDF.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -654,10 +618,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FillingBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InfoReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fillers/AbstractPdfFiller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR181Filler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR180Filler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FW001Filler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FW003Filler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="62" selection-start-line="62" selection-start-column="2" selection-end-line="66" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -668,69 +695,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FW003Filler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="62" selection-start-line="62" selection-start-column="2" selection-end-line="66" selection-end-column="7" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/object/DefendantInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InfoReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR180Filler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR181Filler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/CR115Filler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/object/DefendantInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FW001Filler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fillers/implementations/FillingBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -739,7 +721,14 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="library" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
           <last-edited>LACounty2:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">

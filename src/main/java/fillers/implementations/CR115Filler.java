@@ -39,10 +39,8 @@ public class CR115Filler implements AbstractPdfFiller {
 
         //Fill name
         if (individualInfo.getFirstName() != null || individualInfo.getLastName() != null) {
-            PDField name = acroForm.getField("TEXT.1.0");
+            PDField name = acroForm.getField("TEXT.1.8");
             name.setValue(individualInfo.getFirstName() + " " + individualInfo.getLastName());
-            PDField name2 = acroForm.getField("TEXT.1.8");
-            name2.setValue(individualInfo.getFirstName() + " " + individualInfo.getLastName());
         }
 //        //Fill Case Num
         if (individualInfo.getCaseNumber() != null) {
@@ -51,15 +49,13 @@ public class CR115Filler implements AbstractPdfFiller {
         }
         //Fill Address
         if (individualInfo.getAddress() != null) {
-            PDField home = acroForm.getField("TEXT.1.2");
-            home.setValue(individualInfo.getAddress());
-            PDField home2=acroForm.getField("TEXT.1.15");
-            home2.setValue(individualInfo.getAddress());
+            PDField home = acroForm.getField("TEXT.1.15");
+            home.setValue(individualInfo.getAddress() + ", " + individualInfo.getCity() + ", " + individualInfo.getZip());
         }
         //Fill City+zip
-        if (individualInfo.getCity() != null || individualInfo.getZip() != null) {
-            PDField name = acroForm.getField("TEXT.1.4");
-            name.setValue(individualInfo.getCity() + " " + individualInfo.getZip());
+        if (individualInfo.getBirthday() != null) {
+            PDField name = acroForm.getField("TEXT.1.10");
+            name.setValue(individualInfo.getBirthday());
         }
         //Fill Telephone
         if (individualInfo.getTelephone() != null) {
