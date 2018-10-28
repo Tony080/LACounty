@@ -1,6 +1,6 @@
 .DS_Store
 /target
 workspace.xml
-*.pdf
 codeSytleConfig.xml
 /.idea
+/outputs
