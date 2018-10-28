@@ -10,6 +10,7 @@ public class DefendantInfo {
   private String address;
   private String telephone;
   private String email;
+  private String birthday;
 
   public String getFirstName() {
     return firstName;
@@ -81,5 +82,12 @@ public class DefendantInfo {
 
   public void setEmail(String email) {
     this.email = email;
+  }
+  public String getBirthday() {
+    return birthday;
+  }
+
+  public void setBirthday(String email) {
+    this.birthday = birthday;
   }
 }
