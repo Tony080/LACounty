@@ -8,11 +8,11 @@ import javax.swing.*;
 public class InfoReader {
 
     JFrame frame;
-    JLabel firstName, lastName, caseNumber, address, city, state, zip, telephone, email;
+    JLabel firstName, lastName, caseNumber, address, city, state, zip, telephone, email, birthday;
     JPanel buttonPane, fieldsPanel;
 
     JTextField firstNameField, lastNameField, caseNumberField, addressField, cityField,
-                stateField, zipField, telephoneField, emailField;
+                stateField, zipField, telephoneField, emailField, birthdayField;
 
     JButton okButton, clearButton;
 
@@ -35,6 +35,7 @@ public class InfoReader {
         zip = new JLabel("Zip: ");
         telephone = new JLabel("Telephone: ");
         email = new JLabel("Email: ");
+        birthday = new JLabel("Birthday: ");
 
         firstNameField = new JTextField("");
         lastNameField = new JTextField("");
@@ -45,6 +46,7 @@ public class InfoReader {
         zipField = new JTextField("");
         telephoneField = new JTextField("");
         emailField = new JTextField("");
+        birthdayField = new JTextField("");
 
         okButton = new JButton("OK");
         clearButton = new JButton("CLEAR");
@@ -70,6 +72,8 @@ public class InfoReader {
         fieldsPanel.add(telephoneField);
         fieldsPanel.add(email);
         fieldsPanel.add(emailField);
+        fieldsPanel.add(birthday);
+        fieldsPanel.add(birthdayField);
 
         buttonPane.add(okButton);
         buttonPane.add(clearButton);
@@ -82,7 +86,7 @@ public class InfoReader {
         okButton.addActionListener((e) -> {
             DefendantInfo info = getDefendantInfo(firstNameField.getText(), lastNameField.getText(), caseNumberField.getText(),
                     addressField.getText(), cityField.getText(), stateField.getText(), zipField.getText(),
-                    telephoneField.getText(), emailField.getText());
+                    telephoneField.getText(), emailField.getText(), birthdayField.getText());
 //            System.out.println(info.toString());
             for (AbstractPdfFiller filler : Driver.initializePdfFillers()) {
                 filler.fillForm(info);
@@ -102,6 +106,7 @@ public class InfoReader {
             zipField.setText("");
             telephoneField.setText("");
             emailField.setText("");
+            birthdayField.setText("");
         });
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -112,7 +117,7 @@ public class InfoReader {
     }
 
     private static DefendantInfo getDefendantInfo (String firstName, String lastName, String caseNumber, String address, String city,
-                                                   String state, String zip, String telephone, String email) {
+                                                   String state, String zip, String telephone, String email, String birthday) {
         DefendantInfo info = new DefendantInfo();
 
         info.setFirstName(firstName);
@@ -124,6 +129,7 @@ public class InfoReader {
         info.setZip(zip);
         info.setTelephone(telephone);
         info.setEmail(email);
+        info.setBirthday(birthday);
 
         return info;
     };

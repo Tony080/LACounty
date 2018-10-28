@@ -87,7 +87,7 @@ public class DefendantInfo {
     return birthday;
   }
 
-  public void setBirthday(String email) {
+  public void setBirthday(String birthday) {
     this.birthday = birthday;
   }
 }

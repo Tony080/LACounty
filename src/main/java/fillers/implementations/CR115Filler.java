@@ -39,20 +39,23 @@ public class CR115Filler implements AbstractPdfFiller {
 
         //Fill name
         if (individualInfo.getFirstName() != null || individualInfo.getLastName() != null) {
-            PDField name = acroForm.getField("TEXT.1.8");
-            name.setValue(individualInfo.getFirstName() + " " + individualInfo.getLastName());
+            String fullName = individualInfo.getFirstName() + " " + individualInfo.getLastName();
+            PDField name1 = acroForm.getField("TEXT.1.6");
+            name1.setValue(fullName);
+            PDField name2 = acroForm.getField("TEXT.1.8");
+            name2.setValue(fullName);
         }
 //        //Fill Case Num
         if (individualInfo.getCaseNumber() != null) {
-            PDField name = acroForm.getField("TEXT.1.7");
-            name.setValue(individualInfo.getCaseNumber());
+            PDField caseNum = acroForm.getField("TEXT.1.7");
+            caseNum.setValue(individualInfo.getCaseNumber());
         }
         //Fill Address
         if (individualInfo.getAddress() != null) {
             PDField home = acroForm.getField("TEXT.1.15");
             home.setValue(individualInfo.getAddress() + ", " + individualInfo.getCity() + ", " + individualInfo.getZip());
         }
-        //Fill City+zip
+
         if (individualInfo.getBirthday() != null) {
             PDField name = acroForm.getField("TEXT.1.10");
             name.setValue(individualInfo.getBirthday());

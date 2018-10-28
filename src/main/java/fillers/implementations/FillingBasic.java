@@ -95,8 +95,8 @@ public class FillingBasic implements AbstractPdfFiller {
                 } else {
                     System.out.println("No such field : "+ zip);
                 }
-                pdf.save(FOLDER_NAME + FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
-                pdf.close();
+//                pdf.save(FOLDER_NAME + FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
+//                pdf.close();
 
                 // Birthday
                 PDField birthday = acroForm.getField("topmostSubform[0].Page1[0].Caption_sf[0].CaseName[0].DefendantDOB_dt[0]");
@@ -114,9 +114,7 @@ public class FillingBasic implements AbstractPdfFiller {
                     System.out.println("No such field : "+ defendant);
                 }
 
-
-
-                pdf.save(FOLDER_NAME + FILENAME + "_" + individualInfo.getCaseNumber()+ "_" + individualInfo.getLastName() + ".pdf");
+                pdf.save(FOLDER_NAME + FILENAME + " result.pdf");
                 pdf.close();
 
 
