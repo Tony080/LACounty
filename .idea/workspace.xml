@@ -6,8 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635a3045-c112-42ec-93ea-2031830e9823" name="Default" comment="Remove unnecessary pdf">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="635a3045-c112-42ec-93ea-2031830e9823" name="Default" comment="Update necessary pdfs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,9 +47,10 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="dummy" value="47" />
+          <entry key="gitignore" value="9" />
           <entry key="java" value="923" />
           <entry key="md" value="370" />
-          <entry key="txt" value="93" />
+          <entry key="txt" value="114" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -59,7 +59,7 @@
           <entry key="JAVA" value="923" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="370" />
-          <entry key="PLAIN_TEXT" value="140" />
+          <entry key="PLAIN_TEXT" value="170" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -346,7 +346,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lacounty2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540695231203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540695719568" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -565,7 +565,7 @@
       <workItem from="1540665499733" duration="1526000" />
       <workItem from="1540667033742" duration="532000" />
       <workItem from="1540667573231" duration="4421000" />
-      <workItem from="1540685211377" duration="9710000" />
+      <workItem from="1540685211377" duration="9983000" />
     </task>
     <task id="LOCAL-00001" summary="Reformatting the code">
       <created>1540688256936</created>
@@ -595,15 +595,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540694818021</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update necessary pdfs">
+      <created>1540695287118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540695287118</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20745000" />
+    <option name="totallyTimeSpent" value="21018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -653,7 +659,8 @@
     <MESSAGE value="Modify CR115" />
     <MESSAGE value="Finish 1.0 output &amp; readme.md" />
     <MESSAGE value="Remove unnecessary pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary pdf" />
+    <MESSAGE value="Update necessary pdfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update necessary pdfs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/FillingCR115.java" />
@@ -810,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
