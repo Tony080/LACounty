@@ -2,6 +2,7 @@ import fillers.AbstractPdfFiller;
 import object.DefendantInfo;
 
 import java.awt.*;
+import java.io.File;
 import javax.swing.*;
 
 
@@ -17,6 +18,10 @@ public class InfoReader {
     JButton okButton, clearButton;
 
     public static void main(String args[]) {
+        File outputDir = new File(AbstractPdfFiller.FOLDER_NAME.substring(0, AbstractPdfFiller.FOLDER_NAME.length() - 1));
+        if (!outputDir.exists()) {
+            outputDir.mkdir();
+        }
         new InfoReader();
     }
 
