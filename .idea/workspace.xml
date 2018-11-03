@@ -6,11 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635a3045-c112-42ec-93ea-2031830e9823" name="Default" comment="generate new jar">
+    <list default="true" id="635a3045-c112-42ec-93ea-2031830e9823" name="Default" comment="Update readme.md. Modify UI style.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LACounty2_jar/LACounty2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LACounty2_jar/LACounty2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InfoReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +54,8 @@
           <entry key="dummy" value="47" />
           <entry key="gitignore" value="9" />
           <entry key="java" value="1198" />
-          <entry key="md" value="514" />
-          <entry key="txt" value="171" />
+          <entry key="md" value="517" />
+          <entry key="txt" value="217" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -65,8 +63,8 @@
         <counts>
           <entry key="JAVA" value="1198" />
           <entry key="Manifest" value="1" />
-          <entry key="Markdown" value="514" />
-          <entry key="PLAIN_TEXT" value="227" />
+          <entry key="Markdown" value="517" />
+          <entry key="PLAIN_TEXT" value="273" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -136,8 +134,8 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <first_editor relative-caret-position="375">
+                <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -346,7 +344,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lacounty2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541207152717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541207537675" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -458,7 +456,7 @@
       <workItem from="1540685211377" duration="10771000" />
       <workItem from="1540921111928" duration="627000" />
       <workItem from="1541028155500" duration="88000" />
-      <workItem from="1541032825796" duration="2032000" />
+      <workItem from="1541032825796" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="Reformatting the code">
       <created>1540688256936</created>
@@ -516,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540696385962</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update readme.md. Modify UI style.">
+      <created>1541207190509</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541207190509</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24553000" />
+    <option name="totallyTimeSpent" value="24869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -578,7 +583,8 @@
     <MESSAGE value="Remove unnecessary files" />
     <MESSAGE value="fix small bugs" />
     <MESSAGE value="generate new jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="generate new jar" />
+    <MESSAGE value="Update readme.md. Modify UI style." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme.md. Modify UI style." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/FillingCR115.java" />
@@ -719,8 +725,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="375">
+            <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>

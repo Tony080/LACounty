@@ -20,11 +20,11 @@ The program saves 90% time for filling these forms which offer less chance to ma
 If you have any questions, feel free to contact with Chengzhi Hu (Tony), or any technical members below. 
 
 **Technical Members:**<br>
-[Chengzhi Hu (Tony)](https://github.com/Tony-Hu), [tony.hu1213@gmail.com](tony.hu1213@gmail.com)<br>
-[Lu Tang (Emily)](https://github.com/Emilylulu), [feixue1182@gmail.com](feixue1182@gmail.com)<br>
-[Vivian Xu](https://github.com/wavyxu), [vivianxu0424@gmail.com](vivianxu0424@gmail.com)<br>
-[Ziyi Situ (Michael)](https://github.com/ZiyiSitu), [situziyi@gmail.com](situziyi@gmail.com)<br>
-[Yingyi Lin (Sunny)](https://github.com/sunnymeow), [sunnylin0914@gmail.com](sunnylin0914@gmail.com)<br>
+[Chengzhi Hu (Tony)](https://github.com/Tony-Hu), tony.hu1213@gmail.com<br>
+[Lu Tang (Emily)](https://github.com/Emilylulu), feixue1182@gmail.com<br>
+[Vivian Xu](https://github.com/wavyxu), vivianxu0424@gmail.com<br>
+[Ziyi Situ (Michael)](https://github.com/ZiyiSitu), situziyi@gmail.com<br>
+[Yingyi Lin (Sunny)](https://github.com/sunnymeow), sunnylin0914@gmail.com<br>
 
 Legal Member:
 Savannah Wadsworth, swadsworth@scu.edu
