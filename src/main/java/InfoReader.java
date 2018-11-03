@@ -17,6 +17,9 @@ public class InfoReader {
 
     JButton okButton, clearButton;
 
+    private static final Font uiFont = new Font ("Monospaced", Font.BOLD, 24);
+    private static final Font textFont = new Font ("Serif", Font.PLAIN, 28);
+
     public static void main(String args[]) {
         File outputDir = new File(AbstractPdfFiller.FOLDER_NAME.substring(0, AbstractPdfFiller.FOLDER_NAME.length() - 1));
         if (!outputDir.exists()) {
@@ -27,9 +30,14 @@ public class InfoReader {
 
     InfoReader() {
         frame = new JFrame("Client Information");
+        frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 
         buttonPane = new JPanel();
         fieldsPanel = new JPanel();
+
+        UIManager.put("Label.font", uiFont);
+        UIManager.put("Button.font", uiFont);
+        UIManager.put("TextField.font", textFont);
 
         firstName = new JLabel("First Name: ");
         lastName = new JLabel("Last Name: ");
